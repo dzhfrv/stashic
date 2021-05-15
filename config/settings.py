@@ -16,7 +16,8 @@ INSTALLED_APPS = [
 
     'rest_framework',
 
-    'apps.user'
+    'apps.user',
+    'apps.stash',
 ]
 
 AUTH_USER_MODEL = 'user.User'
